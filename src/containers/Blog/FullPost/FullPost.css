@@ -4,11 +4,27 @@
     border: 1px solid #eee;
     box-shadow: 0 2px 3px #ccc;
     text-align: center;
+    position: relative;
 }
 
-.Edit {
-
+.Favorite {
+    width: 80%;
+    margin: 20px auto;
+    background: #bbb;
+    border: 1px solid #aaa;
+    box-shadow: 0 2px 3px #777;
+    text-align: center;
+    position: relative;
 }
+.FavoriteButton {
+    position: absolute;
+    right: 0;
+    top: 0;
+    
+}
+
+
+.Edit {}
 
 .Edit label {
     display: block;
